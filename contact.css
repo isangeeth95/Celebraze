@@ -1,0 +1,63 @@
+.contactPage-box{
+    box-sizing: border-box;
+    height: 1000px;
+    width: 80%;
+    //border: 2px solid black;
+    margin: 100px auto;
+}
+
+.left {
+    box-sizing: border-box;
+    height: 1000px;
+    width: 50%;
+    //border-right: 2px solid black;
+    float: left;
+    background-image: url("homeImages/cantactPageImage.jpg");
+//  opacity: 0.7;
+}
+
+.contactDetails-box{
+    height: 500px;
+    width: 80%;
+    background-color: white;
+    opacity: 0.9;
+    align-items: center;
+    margin: 300px auto;
+    text-align: center;
+}
+
+.contactDetails-box h1{
+    padding-top: 50px;
+}
+
+.contactDetails-box p{
+    color: darkgreen;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.right{
+    box-sizing: border-box;
+    height: 1000px;
+    width: 50%;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.table-box{
+    box-sizing: border-box;
+    height: 800px;
+    width: 90%;
+    //border: 2px solid black;
+    margin: 100px auto ;
+}
+
+.table-box h1{
+    font-family: "mry_KacstQurn";
+    color: darkcyan;
+    padding-top: 30px;
+}
+
+
+
