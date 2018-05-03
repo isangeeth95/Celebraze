@@ -60,7 +60,7 @@
             <td><a href="#"/>Services</td>
             <td><a href="aboutUs.php"/>About Us</td>
             <td><a href="#"/>Gallery</td>
-            <td><a href="contact.php"/>Contact</td>
+            <td><a href="contact.php"/>Contact Us</td>
         </tr>
     </table>
 </div>
@@ -71,76 +71,99 @@
 
 
 <div class="container">
-    <!--
-        <h1>PACKAGES</h1>
 
-        <div class="packagesBlock">
+    <hr style="margin-top: 100px; color: #cb2027; width: 90%">
+    <h1 style="margin-left: 600px" class="packagesHeader">Packages</h1>
 
+    <div class="packages-left">
 
-            <div id="packagesBase1">
-                <img src="homeImages/custom.jpg"/>
-                <p>Do you want to see it in reality?
-                    This would be the great choice you can made to Surprise Your loved one</p>
-            </div>
+        <a href="https://www.tripadvisor.com/Hotels-g293962-Colombo_Western_Province-Hotels.html">
+        <div class="packages-boxleft">
+            <img src="homeImages/custom.jpg"/>
+            <h2>Description</h2><p>Do you want to organize your birthday party in a 5 star HOTEL ?
+                Do you have around 100 guests in your invitation list ? Wanna use the swimming pool ?
+                Enjoy your day !</p>
 
-            <div id="packagesBase2">
-                <img src="homeImages/platinum.jpg"/>
-                <p>Do you want to see it in reality?
-                    This would be the great choice you can made to Surprise Your loved one</p>
-            </div>
+            <h3>Cinnamon Lakeside Colombo</h3>
+            <h3>Rs. 400,000/=</h3>
 
-            <div id="packagesBase3">
-                <img src="homeImages/gold.jpg"/>
-                <p>Do you want to see it in reality?
-                    This would be the great choice you can made to Surprise Your loved one</p>
-            </div>
-
-            <div id="packagesBase4">
-                <img src="homeImages/silver.jpg"/>
-                <p>Do you want to see it in reality?
-                    This would be the great choice you can made to Surprise Your loved one</p>
-            </div>
-
-            <div id="packagesBase5">
-                <img src="homeImages/bronze.jpg"/>
-                <p>Do you want to see it in reality?
-                    This would be the great choice you can made to Surprise Your loved one</p>
-            </div>
         </div>
-    -->
+        </a>
 
-    <div class="packages-boxleft">
+        <a href="https://www.tripadvisor.com/Hotels-g293962-Colombo_Western_Province-Hotels.html">
+        <div class="packages-boxleft">
+
+            <img src="homeImages/gold.jpg"/>
+            <h2>Description</h2><p>Do you want to organize your birthday party in a 3 star HOTEL ?
+                Do you have around 100 guests in your invitation list ? Wanna use the swimming pool ?
+                Enjoy your day !</p>
+
+            <h3>Grand Oriental Hotel</h3>
+            <h3>Rs. 200,000/=</h3>
+
+        </div>
+        </a>
+
+        <a href="https://www.tripadvisor.com/Hotels-g293962-Colombo_Western_Province-Hotels.html">
+        <div class="packages-boxleft">
+
+            <img src="homeImages/bronze.jpg"/>
+            <h2>Description</h2><p>Do you want to organize your birthday party in a best HOTEL in Colombo ?
+                Do you have around 100 guests in your invitation list ?
+                Enjoy your day !</p>
+
+            <h3>Juliana Hotel</h3>
+            <h3>Rs. 50,000/=</h3>
+
+        </div>
+        </a>
 
     </div>
 
-    <div class="packages-boxright" id="packages-align">
+
+    <div class="packages-right">
+
+        <a href="https://www.tripadvisor.com/Hotels-g293962-Colombo_Western_Province-Hotels.html">
+        <div class="packages-boxright">
+
+            <img src="homeImages/platinum.jpg"/>
+            <h2>Description</h2><p>Do you want to organize your birthday party in a 4 star HOTEL ?
+                Do you have around 100 guests in your invitation list ? Wanna use the swimming pool ?
+                Enjoy your day !</p>
+
+            <h3>Ramada Colombo</h3>
+            <h3>Rs. 300,000/=</h3>
+
+        </div>
+        </a>
+
+        <a href="https://www.tripadvisor.com/Hotels-g293962-Colombo_Western_Province-Hotels.html">
+        <div class="packages-boxright">
+
+            <img src="homeImages/silver.jpg"/>
+            <h2>Description</h2><p>Do you want to organize your birthday party in a 2 star HOTEL ?
+                Do you have around 100 guests in your invitation list ? Wanna use the swimming pool ?
+                Enjoy your day !</p>
+
+            <h3>Highbury Colombo</h3>
+            <h3>Rs. 100,000/=</h3>
+
+        </div>
+        </a>
 
     </div>
-
-    <div class="packages-boxleft">
-
-    </div>
-
-    <div class="packages-boxright">
-
-    </div>
-
-    <div class="packages-boxleft">
-
-    </div>
-
-    <div class="packages-boxright">
-
-    </div>
-
+    <hr style="margin-top: -200px; color: #cb2027; clear: left; width: 90%">
 
 
     <div class="quote-box">
         <blockquote>
-            <p id="quote">There are two great days in a person's life-the day we are born and the day we discover why</p>
+            <p id="quote">There are two great days in a person's life-the day we
+                are born and the day we discover why</p>
             <hr>
             <h2>William Barclay</h2>
-            <p>Scottish author, radio and television presenter, Church of Scotland minister and Professor of Divinity and Biblical Criticism at the University of Glasgow.</p>
+            <p>Scottish author, radio and television presenter, Church of Scotland
+                minister and Professor of Divinity and Biblical Criticism at the University
+                of Glasgow.</p>
         </blockquote>
     </div>
 

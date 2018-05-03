@@ -25,7 +25,7 @@
             <td><a href="#"/>Services</td>
             <td><a href="aboutUs.php"/>About Us</td>
             <td><a href="#"/>Gallery</td>
-            <td><a href="contact.php"/>Contact</td>
+            <td><a href="contact.php"/>Contact Us</td>
         </tr>
     </table>
 </div>

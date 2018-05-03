@@ -243,12 +243,48 @@
 
 /*-------------packages------------*/
 
+.packagesHeader{
+    font-family: "serif";
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px grey;
+    color: purple;
+    margin-top: -100px;
+    margin-bottom: -50px;
+}
+
+.packages-left{
+    box-sizing: border-box;
+    height: 1520px;
+    width: 600px;
+    //border: 2px solid black;
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
 .packages-boxleft{
     box-sizing: border-box;
     height: 500px;
     width: 600px;
-    margin: 0px 10px 10px 100px;
-    border: 2px solid black;
+    margin: 0px 0px 10px 0px;
+    //border: 2px solid black;
+    float: left;
+    background-color: lightcoral;
+    transition: font-size 1s;
+}
+
+.packages-boxleft:hover{
+    font-size: 105%;
+    background-color: lightgreen;
+}
+
+.packages-right{
+    margin: 300px 0px 0px 20px;
+    box-sizing: border-box;
+    height: 1520px;
+    width: 600px;
+    //border: 2px solid black;
     float: left;
 }
 
@@ -256,86 +292,49 @@
     box-sizing: border-box;
     height: 500px;
     width: 600px;
-    margin: 0px 100px 10px 0px ;
-    border: 2px solid black;
-    float: left;
-
-}
-
-#packages-align{
-    padding-top: 100px;
-}
-
-
-/*-------------packages------------
-
-.packagesBlock{
-    box-sizing: border-box;
-    min-height: 800px;
-    margin: auto;
+    margin: 0px 0px 10px 0px;
     //border: 2px solid black;
-    margin-top: 50px;
-}
-
-
-#packagesBase1{
-    box-sizing: border-box;
-    width: 20%;
-    margin-top: 50px;
     float: left;
+    background-color: lightsalmon;
+    transition: font-size 1s;
 }
 
-#packagesBase2{
-    box-sizing: border-box;
-    width: 20%;
-    margin-top: 100px;
-    float: left;
+.packages-boxright:hover{
+    font-size: 105%;
+    background-color: lightseagreen;
 }
 
-#packagesBase3{
-    box-sizing: border-box;
-    width: 20%;
-    margin-top: 150px;
-    float: left;
+.packages-boxleft img ,.packages-boxright img{
+    margin-top: 10px;
 }
 
-#packagesBase4{
-    box-sizing: border-box;
-    width: 20%;
-    margin-top: 200px;
-    float: left;
-}
-
-#packagesBase5{
-    box-sizing: border-box;
-    width: 20%;
-    margin-top: 250px;
-    float: left;
-}
-
-
-#packagesBase1,#packagesBase2,#packagesBase3,#packagesBase4,#packagesBase5, p{
-    //border: 1px solid blue;
-    padding: 0px 10px 0px;
-    text-align: justify;
-}
-
-#packagesBase1,#packagesBase2,#packagesBase3,#packagesBase4,#packagesBase5, img{
+.packages-boxleft p{
+    font-size:20px;
+    margin: auto;
     text-align: center;
-    box-shadow: black;
+    font-weight: normal;
 }
 
 
-*/
+.packages-boxright p{
+    font-size:20px;
+    margin: auto;
+    text-align: center;
+    font-weight: normal;
+}
 
+
+
+/*-------------quote-----------*/
 
 .quote-box{
-    clear: left;
     box-sizing: border-box;
     width: 800px;
     height: 700px;
     //border: 2px solid black;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
 }
 
 blockquote{
