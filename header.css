@@ -13,6 +13,8 @@
     border: 1px solid gray;
 }
 
+/*-----------header-----------*/
+
 .headerBar{
     box-sizing: border-box;
     background-color: white;
@@ -93,7 +95,7 @@ a{
 }
 
 
-
+/*---------------home navigation bar-----------*/
 
 #nav1{
     box-sizing: border-box;
@@ -143,6 +145,8 @@ a{
     border-radius: 10px;
 }
 
+/*--------------bottom div for every page-----------*/
+
 .bottom{
     box-sizing: border-box;
     height: 10px;
@@ -150,4 +154,10 @@ a{
 //border: 2px solid black;
     position: relative;
     clear: left;
+}
+
+hr{
+    margin-top: 100px;
+    color: #cb2027;
+    width: 90%
 }

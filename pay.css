@@ -1,0 +1,23 @@
+.cardDetails-box{
+    box-sizing: border-box;
+    min-height: 1000px;
+    width: 60%;
+    border: 2px solid black;
+    float: left;
+}
+
+.bill-box{
+    box-sizing: border-box;
+    min-height: 1000px;
+    width: 40%;
+    border: 2px solid black;
+    float: left;
+}
+
+.requestAddress-box{
+    box-sizing: border-box;
+    min-height: 1000px;
+    width: 60%;
+    border: 2px solid black;
+    float: left;
+}

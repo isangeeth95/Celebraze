@@ -72,7 +72,7 @@
 
 <div class="container">
 
-    <hr style="margin-top: 100px; color: #cb2027; width: 90%">
+    <hr>
     <h1 style="margin-left: 600px" class="packagesHeader">Packages</h1>
 
     <div class="packages-left">
@@ -98,7 +98,7 @@
                 Do you have around 100 guests in your invitation list ? Wanna use the swimming pool ?
                 Enjoy your day !</p>
 
-            <h3>Grand Oriental Hotel</h3>
+            <h3>Grand Oriental Hotel Colombo</h3>
             <h3>Rs. 200,000/=</h3>
 
         </div>
@@ -112,7 +112,7 @@
                 Do you have around 100 guests in your invitation list ?
                 Enjoy your day !</p>
 
-            <h3>Juliana Hotel</h3>
+            <h3>Juliana Hotel Colombo</h3>
             <h3>Rs. 50,000/=</h3>
 
         </div>
@@ -152,14 +152,14 @@
         </a>
 
     </div>
-    <hr style="margin-top: -200px; color: #cb2027; clear: left; width: 90%">
+    <hr>
 
 
     <div class="quote-box">
         <blockquote>
             <p id="quote">There are two great days in a person's life-the day we
                 are born and the day we discover why</p>
-            <hr>
+            <hr style="margin-top: 0px">
             <h2>William Barclay</h2>
             <p>Scottish author, radio and television presenter, Church of Scotland
                 minister and Professor of Divinity and Biblical Criticism at the University
@@ -170,9 +170,7 @@
 
 
 
-    <div class=bottom>
-
-    </div>
+    <div class=bottom></div>
 
 </div>
 

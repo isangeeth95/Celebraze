@@ -12,6 +12,15 @@
     border: 1px solid gray;
 }
 
+/*-------horizontal line---------*/
+
+hr{
+    margin-top: 100px;
+    color: #cb2027;
+    width: 90%;
+    clear: left;
+}
+
 /*-----------header----------*/
 
 .headerBar{
