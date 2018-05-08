@@ -23,6 +23,7 @@
         <tr>
             <td><a href="homePage.php"/>Home</td>
             <td><a href="#"/>Services</td>
+            <td><a href="#"/>Shop</td>
             <td><a href="aboutUs.php"/>About Us</td>
             <td><a href="#"/>Gallery</td>
             <td><a href="contact.php"/>Contact Us</td>

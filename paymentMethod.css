@@ -1,0 +1,94 @@
+.topic{
+    box-sizing: border-box;
+    height: 200px;
+    width: auto;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.h1-box{
+    box-sizing: border-box;
+    height: 200px;
+    width: 450px;
+    //border: 2px solid white;
+    margin: auto;
+}
+
+.h1-box h1{
+    font-family: "Times New Roman";
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+
+.methods-box{
+    box-sizing: border-box;
+    height: 500px;
+    width: 1300px;
+//border: 2px solid black;
+    margin: 100px auto;
+}
+
+.paypal-box, .creditcard-box, .onlinebanking-box{
+    box-sizing: border-box;
+    height: 300px;
+    width: 420px;
+    //border: 2px solid black;
+    float: left;
+    margin: 0px 0px 0px 10px;
+}
+
+.paypal-box, .creditcard-box{
+    border-right: 2px solid gray;
+}
+
+.paypal-box img{
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.creditcard-box img{
+    height: 100px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.onlinebanking-box img{
+    height: 100px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.radio-box{
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 30px;
+    width: 32px;
+    box-shadow: 2px 2px gray;
+//border: 2px solid gray;
+    float: left;
+    margin: 20px 0px 0px 170px;
+}
+
+.submit-box{
+    box-sizing: border-box;
+    height: 100px;
+    width: 300px;
+//border: 2px solid black;
+    float: right;
+    margin-top: 100px;
+}
+
+#submit{
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    font-family: "DejaVu Sans Mono";
+    float: right;
+    box-shadow: 2px 2px black;
+}
+
+.bottom{
+    clear: right;
+}
