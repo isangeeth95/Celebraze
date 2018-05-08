@@ -18,7 +18,10 @@
         </div>
     </div>
 
-    <form name="paymentMethod" method="POST" action="#">
+
+
+
+    <form name="paymentMethod" method="POST" action="<?php echo $_SERVER['PHP_SELF']?>">
 
     <div class="methods-box">
 
@@ -43,6 +46,27 @@
             </div>
         </div>
 
+        <?php
+        if ($_SERVER["REQUEST_METHOD"]=="POST") {
+
+            if (!empty($_POST['payment'])) {
+
+                if (($_POST['payment']) == "payPal" || ($_POST['payment']) == "creditCard") {
+                    header("location:cardDetails.php");
+                }
+
+                else {
+                    header("location:paymentDetails.php");
+                }
+            }
+
+            else {
+                $error = "Must select a Payment Method";
+                echo "<h1 style='color: #cb2027'>* ".$error."</h1>";
+            }
+        }
+        ?>
+
         <div class="submit-box">
             <input id="submit" type="submit" value="Pay"/>
         </div>
@@ -50,6 +74,8 @@
     </div>
         
     </form>
+
+
 
     <div class="bottom"></div>
 
