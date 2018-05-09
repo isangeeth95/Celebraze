@@ -1,0 +1,31 @@
+.information-box{
+    box-sizing: border-box;
+    min-height: 600px;
+    width: 1200px;
+    margin: 10px auto;
+    border: 30px solid #ff6600;
+}
+
+.billingDetails-box{
+    box-sizing: border-box;
+    min-height: 400px;
+    width: 1100px;
+    margin: 50px auto;
+    //border: 2px solid black;
+}
+
+.billingDetails-box tr td{
+    font-size: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+#inputWidth{
+    width: 400px;
+    font-size: 25px;
+}
+
+#expiration{
+    width: 100px;
+    font-size: 25px;
+}

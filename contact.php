@@ -33,29 +33,29 @@
                     <td><h1>Tell us your name</h1></td>
                 </tr>
                 <tr>
-                    <td colspan="2"><input type="text" name="fname" id="fname" placeholder="First name">
-                    <input type="text" name="lname" id="lname" placeholder="Last name"></td>
+                    <td colspan="2"><input class="inputWidth" type="text" name="fname" id="fname" placeholder="First name">
+                    <input class="inputWidth" type="text" name="lname" id="lname" placeholder="Last name"></td>
                 </tr>
 
                 <tr>
                     <td><h1>Enter your email</h1></td>
                 </tr>
                 <tr>
-                    <td><input type="text" name="email" id="email" placeholder="celebrazeJG_03@gmail.com"></td>
+                    <td><input class="inputWidth" type="text" name="email" id="email" placeholder="celebrazeJG_03@gmail.com"></td>
                 </tr>
 
                 <tr>
                     <td><h1>Enter your phone number</h1></td>
                 </tr>
                 <tr>
-                    <td><input type="text" name="tno" id="tno" placeholder="Eg. +94 77 123 4567"></td>
+                    <td><input class="inputWidth" type="text" name="tno" id="tno" placeholder="Eg. +94 77 123 4567"></td>
                 </tr>
 
                 <tr>
                     <td><h1>Message</h1></td>
                 </tr>
                 <tr>
-                    <td><textarea name="message" id="message" placeholder="Message" rows="6" cols="55"></textarea></td>
+                    <td><textarea style="font-size: 25px" name="message" id="message" placeholder="Message" rows="6" cols="28"></textarea></td>
                 </tr>
             </table>
             </div>
