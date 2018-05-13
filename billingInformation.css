@@ -15,8 +15,9 @@
 }
 
 .billingDetails-box tr td{
+    //border: 2px solid black;
     font-size: 30px;
-    padding-right: 50px;
+    padding-right: 100px;
     padding-bottom: 50px;
 }
 

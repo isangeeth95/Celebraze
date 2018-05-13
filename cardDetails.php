@@ -1,3 +1,75 @@
+<?php
+
+$nameErr=$cNoErr=$monthErr=$yearErr=$cvcErr="";
+$name=$cNo=$month=$year=$cvc="";
+
+if ($_SERVER["REQUEST_METHOD"]=="POST")
+{
+
+    //empty field error
+    if (empty($_POST["name"]))
+    {
+        $nameErr="Required Name";
+    }
+
+    else
+    {
+        $name=testInput($_POST["name"]);
+    }
+
+    if (empty($_POST["cNo"]))
+    {
+        $cNoErr="Required Card Number";
+    }
+
+    else
+    {
+        $cNo=testInput($_POST["cNo"]);
+    }
+
+    if (empty($_POST["month"]))
+    {
+        $monthErr="Required Month";
+    }
+
+    else
+    {
+        $month=testInput($_POST["month"]);
+    }
+
+    if (empty($_POST["year"]))
+    {
+        $yearErr="Required Year";
+    }
+
+    else
+    {
+        $year=testInput($_POST["year"]);
+    }
+
+    if (empty($_POST["cvc"]))
+    {
+        $cvcErr="Required Card Validation Code";
+    }
+
+    else
+    {
+        $cvc=testInput($_POST["cvc"]);
+    }
+
+}
+
+function testInput($data)
+{
+    $data=trim($data);//strip white spaces in the beginning and end of the string
+    $data=stripslashes($data);//unquotes a quoted string
+    $data=htmlspecialchars($data);//convert special characters into html entities
+
+    return $data;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,72 +91,10 @@
 
         <div class="cardDetails-box">
 
-            <?php
-
-            $nameErr=$cNoErr=$monthErr=$yearErr=$cvcErr="";
-            $name=$cNo=$month=$year=$cvc="";
-
-            if ($_SERVER["REQUEST_METHOD"]=="POST")
-            {
-
-                //empty field error
-                if (empty($_POST["name"]))
-                {
-                    $nameErr="Required Name";
-                }
-
-                else
-                {
-                    $name=$_POST["name"];
-                }
-
-                if (empty($_POST["cNo"]))
-                {
-                    $cNoErr="Required Card Number";
-                }
-
-                else
-                {
-                    $cNo=$_POST["cNo"];
-                }
-
-                if (empty($_POST["month"]))
-                {
-                    $monthErr="Required Month";
-                }
-
-                else
-                {
-                    $month=$_POST["month"];
-                }
-
-                if (empty($_POST["year"]))
-                {
-                    $yearErr="Required Year";
-                }
-
-                else
-                {
-                    $year=$_POST["year"];
-                }
-
-                if (empty($_POST["cvc"]))
-                {
-                    $cvcErr="Required Card Validation Code";
-                }
-
-                else
-                {
-                    $cvc=$_POST["cvc"];
-                }
-
-            }
-
-            ?>
 
 
+            <form id="cardDetailsForm" method="post" action="<?php echo $_SERVER["PHP_SELF"];?>" onsubmit="return validateDetails()">
 
-            <form id="cardDetailsForm" method="post" action="<?php echo $_SERVER["PHP_SELF"]?>" onsubmit="validateDetails()">
 
                 <table>
 
@@ -125,6 +135,8 @@
 
             </form>
 
+
+
         </div>
 
 
@@ -140,3 +152,26 @@
 
 </body>
 </html>
+
+
+
+<?php
+
+$host="localhost";
+$username="root";
+$password="";
+$dbname="mydb";
+
+//create connection
+$con=mysqli_connect($host,$username,$password,$dbname);
+
+//Check connection
+if($con)
+{
+    echo "Connected successfully";
+}
+
+
+$con->close();
+
+?>
