@@ -13,7 +13,7 @@
     <table>
         <tr>
             <td><a href="aboutUs.php"/>About Us</td>
-            <td><a href="#"/>Help & Contact </td>
+            <td><a href="contact.php"/>Help & Contact </td>
         </tr>
     </table>
 </footer>
@@ -41,7 +41,7 @@
 
         <table>
             <tr>
-                <td><a href="#" class="fa fa-facebook"></a></td>
+                <td><a href="https://www.facebook.com/" class="fa fa-facebook"></a></td>
                 <td><a href="#" class="fa fa-twitter"></a></td>
                 <td><a href="#" class="fa fa-youtube"></a></td>
             </tr>

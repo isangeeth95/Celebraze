@@ -1,0 +1,47 @@
+.addItem1-box{
+    box-sizing: border-box;
+    min-height: 600px;
+    width: 1200px;
+    margin: 10px auto;
+    border: 30px solid blueviolet;
+}
+
+.addItem2-box{
+    box-sizing: border-box;
+    min-height: 600px;
+    width: 1200px;
+    margin: 10px auto;
+    border: 30px solid crimson;
+}
+
+.addItem3-box{
+    box-sizing: border-box;
+    min-height: 600px;
+    width: 1200px;
+    margin: 10px auto;
+    border: 30px solid greenyellow;
+}
+
+.addItem4-box{
+    box-sizing: border-box;
+    min-height: 600px;
+    width: 1200px;
+    margin: 10px auto;
+    border: 30px solid gold;
+}
+
+
+.new_item-box{
+    box-sizing: border-box;
+    min-height: 400px;
+    width: 1100px;
+    margin: 50px auto;
+//border: 2px solid black;
+}
+
+.new_item-box tr td{
+    font-size: 30px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+

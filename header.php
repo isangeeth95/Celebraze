@@ -1,3 +1,11 @@
+<?php
+require "dbconnect.php";
+
+session_start();
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +20,14 @@
     <header><img src="homeImages/LOGO.jpg"></header>
 
     <ul>
-        <li><a href="#">Become seller</a></li>
-        <li><a href="#">Sign in</a></li>
-        <li id="join"><a href="#">Join</a></li>
+        <?php
+        if(isset($_SESSION['user_email'])){
+            echo"You are login as ".$_SESSION['user_email'];
+        }
+        ?>
+        <li><a href="register.php">Become seller</a></li>
+        <li><a href="login.php">Sign in</a></li>
+        <li id="join"><a href="register.php">Join</a></li>
     </ul>
 </div>
 
@@ -22,10 +35,10 @@
     <table>
         <tr>
             <td><a href="homePage.php"/>Home</td>
-            <td><a href="#"/>Services</td>
-            <td><a href="#"/>Shop</td>
+            <td><a href="Service.php"/>Services</td>
+            <td><a href="Shop.php"/>Shop</td>
             <td><a href="aboutUs.php"/>About Us</td>
-            <td><a href="#"/>Gallery</td>
+            <td><a href="gallery.php"/>Gallery</td>
             <td><a href="contact.php"/>Contact Us</td>
         </tr>
     </table>

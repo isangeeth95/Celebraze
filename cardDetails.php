@@ -1,7 +1,12 @@
 <?php
 
+    include "dbconnect.php";
+
 $nameErr=$cNoErr=$monthErr=$yearErr=$cvcErr="";
 $name=$cNo=$month=$year=$cvc="";
+
+
+
 
 if ($_SERVER["REQUEST_METHOD"]=="POST")
 {
@@ -156,21 +161,6 @@ function testInput($data)
 
 
 <?php
-
-$host="localhost";
-$username="root";
-$password="";
-$dbname="mydb";
-
-//create connection
-$con=mysqli_connect($host,$username,$password,$dbname);
-
-//Check connection
-if($con)
-{
-    echo "Connected successfully";
-}
-
 
 $con->close();
 

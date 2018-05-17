@@ -1,0 +1,155 @@
+
+.container{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 1420px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100em;
+    background-color: white;
+    box-shadow: 5px 5px gray;
+    border: 2px solid black;
+}
+
+
+.headerBar{
+    box-sizing: border-box;
+    background-color: white;
+    width: 1420px;
+//margin: auto;
+    height: 200px;
+//border: 2px solid black;
+    position: fixed;
+    top: 0px;
+
+}
+
+.headerBar header{
+    padding-left: 30px;
+    float: left;
+    font-weight: bolder;
+    font-size: 6em;
+//font-style: oblique;
+    font-family: "Verdana";
+    text-shadow: 5px 5px lightgray;
+    color: darkviolet;
+}
+
+.headerBar ul{
+//border: 2px solid black;
+//width: 500px;
+    list-style-type: none;
+    padding-top: 20px;
+    margin: auto;
+    float: right;
+}
+
+.headerBar li{
+    align-content: right;
+    float: left;
+    margin: auto;
+    padding: 0px;
+
+}
+
+.headerBar li a{
+    font-family: "Times New Roman";
+    font-size: 20px;
+    font-weight: normal;
+    transition: font-size 1s;
+}
+
+.headerBar li a:hover{
+    font-size: 25px;
+}
+
+#join a{
+    border: 5px solid black;
+    text-decoration: none;
+    width: 100px;
+    padding-top: 0px;
+    background-color: white;
+    color: black;
+    transition: color;
+    transition: font-size 1s;
+}
+
+#join a:hover{
+    background-color: mediumspringgreen;
+}
+
+a{
+    padding-top: 5px;
+    width: 150px;
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+
+}
+
+#nav1{
+    margin-top: 150px;
+    box-sizing: border-box;
+//padding: 0px;
+    height: 50px;
+    width: 1420px;
+    position: fixed;
+//border: 1px solid cornflowerblue;
+    font-family: "URW Chancery L";
+    background-color: white;
+    box-shadow: 0px 5px black;
+}
+
+#nav1 table tr{
+    position: center;
+    border-spacing: 0px;
+    padding: 0px;
+    margin: auto;
+}
+
+#nav1 tr a{
+//border: 2px solid black;
+    height: 35px;
+    margin: auto;
+    width: 150px;
+    font-weight: normal;
+    color: -moz-visitedhyperlinktext;
+    font-weight: bold;
+    font-size: 20px;
+    transition: font-size 1s;
+}
+
+#nav1 td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 30px;
+    transition: color 2s;
+//background-color: mediumspringgreen;
+}
+
+#nav1 td:hover a:hover{
+    background-color: mediumspringgreen;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+
+---------------------------------------------
+
+h2{
+    color:hsl(0,100%,65%);
+}
+
+input[type=text]{
+    width:70px;
+    padding: 5px 5px;
+    margin:5px 0;
+    box-sizing: border-box;
+    border: 1px solid salmon;
+
+}
+
+--------------------------------------------
